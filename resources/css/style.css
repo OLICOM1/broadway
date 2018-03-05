@@ -5,12 +5,28 @@ body {
 
 div {
   background-image: url(../images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  background-size: 1333px 316px;
 }
 
-.header {
+h1 {
   color: white;
   font-size: 70px;
-  font-weight: bold;  
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
 }
 
 .top {
@@ -19,11 +35,26 @@ div {
   color: white;
 }
 
+.bottom {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  text-align: left;
+  background-color: dimgray;
+  font-weight: bold;
+}
+
+.newyork {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url(../images/the-flatiron-building.png);
+}
+
 li a {
   list-style-type: none;
   margin: 0;
   padding: 0;
   color: white;
   font-weight: bold;
-
 }
